@@ -1,0 +1,33 @@
+/*
+ * This file should only comprise of @imports.
+ * Place all styles in appropriately named files.
+ * See the ToC in _application.scss
+ */
+
+/* Bourbon & Neat
+ * -----------------------------------------------------------------------------*/
+@import "bourbon/app/assets/stylesheets/bourbon";
+@import "neat/app/assets/stylesheets/neat-helpers";
+@import "bitters/grid-settings";
+@import "neat/app/assets/stylesheets/neat";
+
+/* Base
+ * -----------------------------------------------------------------------------*/
+@import "bitters/variables";
+@import "bitters/extends/base";
+@import "bitters/mixins/base";
+//
+@import "bitters/typography";
+@import "bitters/forms";
+@import "bitters/tables";
+@import "bitters/lists";
+@import "bitters/flashes";
+
+/* Components
+ * -----------------------------------------------------------------------------*/
+// @import "component/modal";
+
+/* Pages
+ * -----------------------------------------------------------------------------*/
+// @import "page/home";
+
