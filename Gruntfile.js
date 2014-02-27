@@ -129,8 +129,8 @@ module.exports = function (grunt) {
       },
       server: {
         options: {
-          debugInfo: true,
-          lineNumbers: true
+          debugInfo: false,
+          lineNumbers: false
         },
         files: [{
           expand: true,
@@ -202,8 +202,8 @@ module.exports = function (grunt) {
         options: {
           collapseWhitespace: true,
           collapseBooleanAttributes: true,
-          removeAttributeQuotes: true,
-          removeRedundantAttributes: true
+          removeAttributeQuotes: false,
+          removeRedundantAttributes: false
         },
         files: [{
           expand: true,
@@ -384,10 +384,10 @@ module.exports = function (grunt) {
     'useminPrepare',
     'concat',
     'cssmin',
-    'uglify',
+    //'uglify',
     'imagemin',
     'svgmin',
-    'filerev',
+    //'filerev',
     'usemin',
     'htmlmin'
     ]);

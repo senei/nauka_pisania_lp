@@ -6,39 +6,15 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- build:css({app,.tmp}) /css/main.css -->
-        <!-- Custom CSS -->
         <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
+        <!-- build:css({app,.tmp}) ./css/main.css -->
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/screan.css">
         <!-- endbuild -->
 
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                senei<br />
-                <a href="mailto:senei.web@gmail.com">senei.web@gmail.com</a>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-
+     {{ content }}
     <!-- build:js({app,.tmp}) /js/scripts.js -->
     <script src="/js/main.js"></script>
     <!-- endbuild -->
